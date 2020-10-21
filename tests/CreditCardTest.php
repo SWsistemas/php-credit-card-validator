@@ -76,6 +76,10 @@ class CreditCardTest extends \PHPUnit\Framework\TestCase
             '4389351648020055',
             '6362970000457013',
         ],
+        CreditCard::TYPE_HIPERCARD => [
+            '6062825624254001',
+            '6062822141610138',
+        ],
     ];
 
     public function testCardsTypes()
